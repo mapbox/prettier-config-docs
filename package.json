@@ -4,7 +4,6 @@
   "description": "Prettier configuration for docs.mapbox.com sites",
   "main": "index.json",
   "scripts": {
-    "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mapbox",
@@ -22,13 +21,22 @@
   "homepage": "https://github.com/mapbox/prettier-config-docs#readme",
   "dependencies": {},
   "devDependencies": {
-    "husky": "^3.1.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1"
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6",
+    "prettier": "^2.0.5"
   },
   "prettier": "./index.json",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
       "prettier --write",
       "git add"
     ]

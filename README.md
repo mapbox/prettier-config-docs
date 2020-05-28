@@ -12,8 +12,8 @@ Edit `package.json`:
 
 ```jsonc
 {
- // ...
- "prettier": "@mapbox/prettier-config-docs"
+  // ...
+  "prettier": "@mapbox/prettier-config-docs"
 }
 ```
 
@@ -21,7 +21,7 @@ _or_ to extend this configuration to overwrite some properties, create `.prettie
 
 ```js
 module.exports = {
-  ...require("@mapbox/prettier-config-docs"),
-  "tabWidth": 4
+  ...require('@mapbox/prettier-config-docs'),
+  tabWidth: 4,
 };
 ```
