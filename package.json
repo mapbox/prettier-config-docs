@@ -22,8 +22,11 @@
   "dependencies": {},
   "devDependencies": {
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.6",
+    "lint-staged": "^10.2.10",
     "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "prettier": "^2"
   },
   "prettier": "./index.json",
   "husky": {

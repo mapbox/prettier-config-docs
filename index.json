@@ -1,6 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/prettierrc",
   "singleQuote": true,
+  "trailingComma": "none",
   "overrides": [
     {
       "files": "*.html",
