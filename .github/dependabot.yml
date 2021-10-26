@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    reviewers:
+      - "@mapbox/docs"
+    allow:
+      - dependency-name: "prettier"
+      - dependency-name: "husky"
+      - dependency-name: "lint-staged"
