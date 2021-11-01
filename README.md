@@ -25,3 +25,15 @@ module.exports = {
   tabWidth: 4,
 };
 ```
+
+## How to release
+
+From the main branch:
+
+1. Run `npm version {major|minor|patch}`. Example (and usually): `npm version minor`.
+2. Push changes.
+3. Run `mbx npm publish` to publish the package to npm.
+
+Dependabot will automatically update `@mapbox/prettier-config-docs` (within 1 day) to all site repositories. If you need it sooner, you can install this package in the repository by following the [install steps](#install).
+
+This package uses npm 7, which means it will automatically install the `peerDependnecies` found in `package.json`. If your site requires a different version of a peer dependency, you can install the dependency in your repository using the `--force ` flag. Example: `npm i prettier@2.0.0 --force`.
