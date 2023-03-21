@@ -29,7 +29,7 @@
     "*.{json,md}": "prettier --write"
   },
   "engines": {
-    "node": ">=14",
-    "npm": "^7"
+    "node": ">=18",
+    "npm": "^9"
   }
 }
