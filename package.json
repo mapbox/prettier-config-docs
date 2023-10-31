@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/mapbox/prettier-config-docs#readme",
   "peerDependencies": {
-    "husky": "^7.0.0",
-    "lint-staged": "^11.2.4",
-    "prettier": "^2.4.1"
+    "husky": "^8",
+    "lint-staged": "^15",
+    "prettier": "^3"
   },
   "prettier": "./index.json",
   "lint-staged": {
