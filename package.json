@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/prettier-config-docs",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Prettier configuration for docs.mapbox.com sites",
   "main": "index.json",
   "scripts": {
@@ -30,6 +30,6 @@
   },
   "engines": {
     "node": ">=18",
-    "npm": "^9"
+    "npm": ">=9"
   }
 }
