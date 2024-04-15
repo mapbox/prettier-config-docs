@@ -22,7 +22,7 @@ _or_ to extend this configuration to overwrite some properties, create `.prettie
 ```js
 module.exports = {
   ...require('@mapbox/prettier-config-docs'),
-  tabWidth: 4,
+  tabWidth: 4
 };
 ```
 
@@ -35,5 +35,3 @@ From the main branch:
 3. Run `mbx npm publish` to publish the package to npm.
 
 Dependabot will automatically update `@mapbox/prettier-config-docs` (within 1 day) to all site repositories. If you need it sooner, you can install this package in the repository by following the [install steps](#install).
-
-This package uses npm 7, which means it will automatically install the `peerDependnecies` found in `package.json`. If your site requires a different version of a peer dependency, you can install the dependency in your repository using the `--force ` flag. Example: `npm i prettier@2.0.0 --force`.
