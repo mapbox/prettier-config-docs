@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/prettier-config-docs",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Prettier configuration for docs.mapbox.com sites",
   "main": "index.json",
   "scripts": {
